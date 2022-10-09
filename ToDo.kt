@@ -36,7 +36,7 @@ class ToDo {
         tasks.add(task)
     }
     fun showAllTasks(task: Task) {
-
+        for (task in tasks)
             println("Task Details: ID (${task.id}), Name (${task.name}), Task (${task.note}), Completed (${task.isCompleted})")
 
     }
